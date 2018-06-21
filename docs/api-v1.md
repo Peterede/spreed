@@ -123,7 +123,8 @@ Base endpoint is: `/ocs/v2.php/apps/spreed/api/v1`
         `hasPassword` | bool | Flag if the room has a password
         `hasCall` | bool | Flag if the room has an active call
         `unreadMessages` | int | Number of unread chat messages in the room (only available with `chat-v2` capability)
-
+        `lastMessage` | message | Last message in a room if available, otherwise empty
+       
 ### Get single room (also for guests)
 
 * Method: `GET`
